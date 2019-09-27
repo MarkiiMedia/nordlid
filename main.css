@@ -1,0 +1,106 @@
+/* MARKETING CONTENT */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .marketing {
+      background-color: #2a697b;
+      padding-top: 3%;
+      color: white;
+  }
+
+  .logo_markii {
+      padding-top: 1%;
+      padding-bottom: 1%;
+  }
+
+
+  .footer {
+    background-color: #313131;
+    color: white;
+    text-align: center;
+  }
+
+  .icons_markii {
+    padding-bottom: 4%;
+  }
+
+  .footer_social_markii {
+    width: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .img_social_as_1_picture_markii {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .img_contact_as_1_picture_markii {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #overskrift_col_markii {
+    padding-bottom: 4%;
+    padding-top: 4%;
+  }
+
+  .btn-markii {
+    color: white;
+    background-color: #e6007e;
+    border-radius: 0;
+    width: 220px;
+  }
+
+  /* Blot lidt regler så form ser ud som ønsket jf mockup */
+  .form_markii_stuff {
+    border-radius: 0;
+    border: none;
+    border-bottom: solid 1px black;
+    padding-left:0;
+  }
+
+  .caption_mid_markii {
+    padding-top:0px;
+  }
+
+  /* tekst under icons kortere jf mockup */
+  .markii_less_size_text_icons {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .carousel_text_markii {
+    font-size: 2rem;
+  }
+
+/* Mobil regler - maxvidde er ikke specificeret i docs så derfor denne valgt */
+  @media only screen and (max-width: 700px) {
+    /* order således form er først ved mobil (random valgt vidde) */
+    .markiiorder1 {
+      order: 1;
+    }
+    /* order således form er først ved mobil (random valgt vidde) */
+    .markiiorder2 {
+      order: 2;
+    }
+
+    /* 100 width ved mobil visning jf mockup */
+    .btn-markii {
+      width: 100%;
+    }
+    /* Mindre tekst på mobilvisning (carousel) */
+    .carousel_text_markii {
+      font-size: 1.25rem;
+    }
+
+  }
